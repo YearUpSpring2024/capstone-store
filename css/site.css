@@ -1,7 +1,21 @@
+.bg-brown {
+    background-color: #6F4E37;
+
+}
+
+.nav-link {
+    color: #F5F5DC;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #769665;
+}
+
 #jumbotron {
     width: 100%;
     height: 100vh;
-    background-image: url('./images/coffee.jpeg');
+    /* background-image: url('./images/coffee.jpeg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,6 +23,36 @@
     color: white;
     text-align: center;
     position: relative;
+}
+
+.jumbotron-container {
+    position: relative;
+    height: 100vh;
+}
+
+.video-bg {
+    /* move to left */
+    position: absolute;
+    width: 100%;
+    height: 99.9%;
+    top: 0;
+    /* fit to screen */
+    left: 0;
+    /* make sure the vid fits screen */
+    object-fit: cover;
+    /* place vid behind content */
+    /* z-index: -1; */
+}
+
+.overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 #jumbotron .overlay {
@@ -42,6 +86,43 @@
 /* carousel */
 .carousel-container {
     width: 70%;
+    margin-top: 200px;
     margin: 50px auto;
     /* margin-bottom: 40px; */
+}
+
+#jumbotron {
+    background-color: #F5F5DC;
+}
+
+.carousel-container img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #6A7F5F;
+
+    box-shadow: 4px 4px 4px rgba(0, 2, 0, 0, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carousel-container img:hover {
+    /* get a zoome effect */
+    transform: scale(1.06);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0, 0.6);
+}
+
+/* footer */
+footer {
+    background-color: #6A7F5F;
+    color: #f5f5dc;
+}
+
+footer a {
+    color: #f5f5dc;
+}
+
+.footer-links {
+    color: #F5F5DC;
+    /* font-size: 40px; */
 }

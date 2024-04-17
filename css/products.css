@@ -1,0 +1,13 @@
+.bg-brown {
+    background-color: #6F4E37;
+
+}
+
+.nav-link {
+    color: #F5F5DC;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
