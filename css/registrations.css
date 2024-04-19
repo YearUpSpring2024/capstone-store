@@ -1,6 +1,18 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'roboto slab', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'playfair-display', serif;
+}
 
 .bg-brown {
     background-color: #6F4E37;
@@ -14,6 +26,16 @@ html {
 .nav-link:hover {
     text-decoration: underline;
     color: #6A7F5F;
+}
+
+.but {
+    color: #3c763d;
+    background-color: #fff;
+}
+
+.but:hover {
+    background-color: #2a5a2a;
+    color: #f1e8d8;
 }
 
 /* .nav-link: */
@@ -33,4 +55,10 @@ footer a {
 .footer-links {
     color: #F5F5DC;
     /* font-size: 40px; */
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: none;
+    }
 }
