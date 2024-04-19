@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-brown {
     background-color: #6F4E37;
 
@@ -9,7 +13,22 @@
 
 .nav-link:hover {
     text-decoration: underline;
-    color: aquamarine;
 }
 
 /* .nav-link: */
+
+/* footer */
+/* footer */
+footer {
+    background-color: #6A7F5F;
+    color: #f5f5dc;
+}
+
+footer a {
+    color: #f5f5dc;
+}
+
+.footer-links {
+    color: #F5F5DC;
+    /* font-size: 40px; */
+}
