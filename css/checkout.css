@@ -30,12 +30,16 @@ h6 {
 
 
 .but {
-    color: #3c763d;
-    background-color: #fff;
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #6A7F5F;
+    width: auto;
+    background-color: #F5F5DC;
 }
 
 .but:hover {
-    background-color: #2a5a2a;
+    background-color: #6A7F5F;
     color: #f1e8d8;
 }
 /* .nav-link: */

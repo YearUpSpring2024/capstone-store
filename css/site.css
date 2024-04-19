@@ -58,14 +58,32 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .but{
-    color: #3c763d;
-    background-color: #fff;
+    font-size: 0.8rem;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: #f1e8d8;
+        width: auto;
+        background-color: #6A7F5F;
 }
-.but:hover{
-background-color: #2a5a2a;
-color: #f1e8d8;
+.but:hover {
+    background-color: #f1e8d8;
+    color: #6A7F5F;
 }
 
+
+.but-2 {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #6A7F5F;
+    width: auto;
+    background-color: #f1e8d8;
+}
+
+/* .but-2:hover {
+    background-color: #6A7F5F;
+    color: #f1e8d8;
+} */
 .btn-lg {
     font-size: 1.3 rem;
     padding: 15px 30px;
